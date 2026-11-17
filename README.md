@@ -43,6 +43,7 @@ npx serve out -l 3001
 | الملف | الوظيفة |
 | --- | --- |
 | `src/lib/products.ts` | بيانات المنتجات، الترجمات، الصور والمصادر |
+| `src/lib/studio.ts` | بيانات مصباح، الشركة المطوّرة للموقع، وخدماتها ووسائل التواصل |
 | `src/components/home.tsx` | محتوى الصفحة الرئيسية |
 | `src/components/catalog.tsx` | البحث والفلاتر والترتيب |
 | `src/components/site-provider.tsx` | اللغة ونموذج الاستفسار |

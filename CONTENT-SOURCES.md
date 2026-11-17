@@ -1,5 +1,9 @@
 # Content provenance
 
+## Website development credit
+
+The development credit is MUSBAH (مصباح), as identified by the project owner. The company presents itself as Musbah for Digital Transformation (مصباح للتحول الرقمي) at https://musbah.co/ar. Contact details and the WhatsApp link are sourced from https://musbah.co/ar/contact-us: info@musbah.co, +201025130204, Shebin El Kom, Monufia, Egypt. The five services and their links are sourced from https://musbah.co/ar/services: websites, online stores, mobile applications, brand identity and business management systems. The official logo at https://musbah.co/web/img/logo.svg is stored unmodified in `public/images/musbah-logo.svg` and was verified against the source. Shared developer details live in `src/lib/studio.ts`; website and contact links follow the selected language.
+
 Reviewed on 17 November 2026.
 
 This project is an independent portfolio concept using product families and imagery publicly displayed by Al-Ahram for Factories Requirements. It is not presented as a newly authorized official company website.

@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { SiteProvider } from "@/components/site-provider";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { studio } from "@/lib/studio";
 import "./globals.css";
 
 const manrope = localFont({ src: [
@@ -19,8 +20,8 @@ const arabic = localFont({ src: [
 ], variable: "--font-arabic", display: "swap" });
 
 export const metadata: Metadata = {
-  authors: [{ name: "BE GROUP", url: "https://begroup.com.sa/" }],
-  creator: "BE GROUP",
+  authors: [{ name: studio.nameEn, url: studio.website }],
+  creator: studio.nameEn,
   title: { default: "AHRAM — Precision in every connection", template: "%s | AHRAM" },
   description: "Explore Ahram’s industrial valves, static and rotating equipment. Over 40 years of Egyptian engineering expertise. الأهرام لمهمات المصانع — حلول صناعية بخبرة تتجاوز ٤٠ عامًا.",
   openGraph: { title: "AHRAM — Precision in every connection", description: "Egyptian expertise. Industrial confidence. Explore the Ahram product portfolio.", images: [{ url: "https://www.ahramvalves.com/images/s1.jpg", width: 1600, height: 710 }], type: "website" },
