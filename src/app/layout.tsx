@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   title: { default: "AHRAM — Precision in every connection", template: "%s | AHRAM" },
   description: "Explore Ahram’s industrial valves, static and rotating equipment. Over 40 years of Egyptian engineering expertise. الأهرام لمهمات المصانع — حلول صناعية بخبرة تتجاوز ٤٠ عامًا.",
   openGraph: { title: "AHRAM — Precision in every connection", description: "Egyptian expertise. Industrial confidence. Explore the Ahram product portfolio.", images: [{ url: "https://www.ahramvalves.com/images/s1.jpg", width: 1600, height: 710 }], type: "website" },
-  icons: { icon: "/images/ahram-be-project-mark.png", apple: "/images/ahram-be-project-mark.png" },
+  icons: { icon: "/images/logo.png", apple: "/images/logo.png" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
